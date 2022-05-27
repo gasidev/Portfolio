@@ -10,8 +10,10 @@ h1{
     font-style: italic;
     }
 
-header p{
+header a{
     font-style: italic;
+    text-decoration: none;
+    color:white;
 }
 @media only screen and (max-width: 576px){
         header{
@@ -26,18 +28,37 @@ header p{
             justify-content: space-between;
             margin: auto;
             height: 24px;
+            width: 105px;
         }
 
         #socials div{
-            margin-right: 10px;
+            transition: opacity .25s ease-in-out;
+            opacity: 70%;
+        }
+
+        #socials div:hover{
+            transition: opacity .25s ease-in-out;
+            opacity: 100%;
         }
 
         #contact{
             margin: auto;
         }
 
+        #contact a{
+            font-size: 20px;
+            transition: opacity .25s ease-in-out;
+            opacity: 70%;   
+        }
+
+        #contact a:hover{
+            transition: opacity .25s ease-in-out;
+            opacity: 100%;
+        }
+
         #logo h1{
             font-size: 28px;
+            font-weight: normal;
         }
         
 
