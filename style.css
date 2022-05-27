@@ -1,8 +1,44 @@
 body{
     font-family: Jost, sans-serif;
+    font-weight: medium;
     margin: 0%;
+    background: black;
+    color:white;
 }
 
+h1{
+    font-style: italic;
+    }
+
+header p{
+    font-style: italic;
+}
 @media only screen and (max-width: 576px){
-    
+        header{
+            display: flex;
+            justify-content: space-between;
+            margin: auto;
+            vertical-align: middle;
+        }
+        
+        #socials{
+            display: flex;
+            justify-content: space-between;
+            margin: auto;
+            height: 24px;
+        }
+
+        #socials div{
+            margin-right: 10px;
+        }
+
+        #contact{
+            margin: auto;
+        }
+
+        #logo h1{
+            font-size: 28px;
+        }
+        
+
 }
