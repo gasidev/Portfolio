@@ -20,7 +20,7 @@ header{
     display: flex;
     justify-content: space-between;
     vertical-align: middle;
-    width: 1186px;
+    width: 83%;
     margin: auto;
     margin-top: 30px;
 }
@@ -62,7 +62,7 @@ header div{
 }
 
 #contact a{
-    font-size: 24px;
+    font-size: 36px;
     transition: opacity .25s ease-in-out;
     opacity: 70%;   
 }
@@ -73,34 +73,43 @@ header div{
 }
 
 #logo h1{
-    font-size: 36px;
+    font-size: 48px;
     font-weight: normal;
     text-align: center;
     margin: auto;
 }
 
 #landmsg{
-    width: 454px;
+    width: 614px;
     margin: auto;
     text-align: center;
-    margin-top: 342px;
-    margin-bottom: 340px;
+    margin-top: 278px;
+    margin-bottom: 321px;
 }
 
 #landmsg h1{
-    font-size: 64px;
+    font-size: 70px;
     font-weight: normal;
 }
 
 #landmsg p{
-    font-size: 24px;
+    font-size: 32px;
 
+}
+
+#work {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    margin: 0 20px;
 }
 
 #worksec{
     height: 610px;
+    width: 49%;
     font-weight: bold;
 }
+
 
 #workimg{
     height: 400px;
