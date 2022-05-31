@@ -1,9 +1,10 @@
 body{
     font-family: Jost, sans-serif;
     font-weight: medium;
-    margin: 0;
+    margin: auto;
     background: black;
     color:white;
+    max-width: 1400px;
 }
 
 h1{
@@ -20,7 +21,7 @@ header{
     display: flex;
     justify-content: space-between;
     vertical-align: middle;
-    width: 82.264vw;
+    width: 100%;
     margin: auto;
     margin-top: 30px;
 }
