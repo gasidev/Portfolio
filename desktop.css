@@ -20,9 +20,13 @@ header{
     display: flex;
     justify-content: space-between;
     vertical-align: middle;
-    width: 1186px;
+    width: 82.264vw;
     margin: auto;
     margin-top: 30px;
+}
+
+header div{
+    width: 33.3%;
 }
 
 
@@ -37,8 +41,8 @@ header{
 }
 
 #socials svg{
-    height: 40px;
-    width: 40px;
+    height: 50px;
+    width: 50px;
 }
 
 #socials div{
@@ -60,7 +64,7 @@ header{
 }
 
 #contact a{
-    font-size: 24px;
+    font-size: 1.875vw;
     transition: opacity .25s ease-in-out;
     opacity: 70%;   
 }
@@ -71,37 +75,46 @@ header{
 }
 
 #logo h1{
-    font-size: 36px;
+    font-size: 2.500vw;
     font-weight: normal;
     text-align: center;
     margin: auto;
 }
 
 #landmsg{
-    width: 454px;
+    width: 31.979vw;
     margin: auto;
     text-align: center;
-    margin-top: 342px;
-    margin-bottom: 340px;
+    margin-top: 22.448vw;
+    margin-bottom: 22.188vw;
 }
 
 #landmsg h1{
-    font-size: 64px;
+    font-size: 3.646vw;
     font-weight: normal;
 }
 
 #landmsg p{
-    font-size: 24px;
+    font-size: 1.667vw      ;
 
+}
+
+#work {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    margin: 0 1.042vw;
 }
 
 #worksec{
-    height: 610px;
+    height: 31.771vw;
+    width: 49%;
     font-weight: bold;
 }
 
+
 #workimg{
-    height: 400px;
+    height: 20.833vw;
     background-color: grey;
 }
 
@@ -111,13 +124,24 @@ header{
     justify-content: space-between;
     align-items: center;
     margin: auto; 
-    font-size: 17px;
+    font-size: 0.885vw;
+}
+
+.worksec1{
+    height: 46.875vw;
+    width: 98%;
+    font-weight: bold;
+    margin: auto;
+}
+
+.worksec1 #workimg{
+    height: 36.458vw;
 }
 
 #more{
     text-align: center;
-    margin-top: 30px;
-    margin-bottom: 130px;
+    margin-top: 1.563vw;
+    margin-bottom: 6.771vw;
 }
 
 #more a{
@@ -129,7 +153,9 @@ header{
 
 #about{
     text-align: center;
-    margin-bottom: 296px;
+    width: 52.083vw;
+    margin: auto;
+    margin-bottom: 15.417vw;
 }
 
 #about p{
