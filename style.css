@@ -1,9 +1,16 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
 body{
     font-family: Jost, sans-serif;
     font-weight: medium;
-    margin: 0;
+    margin: 0 auto;
+    padding: 0;
     background: black;
     color:white;
+    max-width: 1080px;
+    font-size: 16px;
 }
 
 h1{
@@ -15,376 +22,191 @@ header a{
     text-decoration: none;
     color:white;
 }
-@media only screen and (min-width:578px) and (max-width: 768px){
-    header{
-        display: flex;
-        justify-content: space-between;
-        vertical-align: middle;
-        width: 90.5%;
-        margin: auto;
-        margin-top: 30px;
-    }
 
-    header div{
-        width: 33.3%;
-    }
-    
-    #socials{
-        display: flex;
-        justify-content: space-between;
-        margin: auto;
-        margin-right: 76px;
-        margin-left: 0;
-        height: 35px;
-        width: 145px;
-    }
+header{
+    display: flex;
+    justify-content: space-between;
+    vertical-align: middle;
+    margin-top: 30px;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
 
-    #socials svg{
-        height: 35px;
-        width: 35px;
-    }
+header div{
+   flex: 1.2;
+}
 
-    #socials div{
-        transition: opacity .25s ease-in-out;
-        opacity: 70%;
-        display: flex;
-        justify-content: space-between;
-        width: auto;
-    }
+#socials{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    flex: 0.9;
+}
 
-    #socials div:hover{
-        transition: opacity .25s ease-in-out;
-        opacity: 100%;
-    }
+#socials svg{
+    width: 30px;
+    height: auto;
+}
 
-    #contact{
-        margin: auto;
-        margin-right: 0;
-        text-align: right;
-    }
+#socials div{
+    transition: opacity .25s ease-in-out;
+    opacity: 70%;
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+}
 
-    #contact a{
-        font-size: 24px;
-        transition: opacity .25s ease-in-out;
-        opacity: 70%;   
-    }
+#socials div:hover{
+    transition: opacity .25s ease-in-out;
+    opacity: 100%;
+}
 
-    #contact a:hover{
-        transition: opacity .25s ease-in-out;
-        opacity: 100%;
-    }
+#contact{
+    margin: auto;
+    margin-right: 0;
+    text-align: right;
+    flex: 0.95  
+}
 
-    #logo h1{
-        font-size: 36px;
-        font-weight: normal;
-        text-align: center;
-        margin: auto;
-    }
+#contact a{
+    font-size: 1.5rem;
+    transition: opacity .25s ease-in-out;
+    opacity: 70%; 
+}
 
-    #landmsg{
-        width: 454px;
-        margin: auto;
-        text-align: center;
-        margin-top: 342px;
-        margin-bottom: 340px;
-    }
+#contact a:hover{
+    transition: opacity .25s ease-in-out;
+    opacity: 100%;
+}
 
-    #landmsg h1{
-        font-size: 64px;
-        font-weight: normal;
-    }
+#logo h1{
+    font-size: 1.75rem;
+    font-weight: normal;
+    text-align: center;
+    margin: auto;
+}
 
-    #landmsg p{
-        font-size: 24px;
+#landmsg{
+    margin: auto;
+    text-align: center;
+    margin-top: 342px;
+    margin-bottom: 340px;
+}
 
-    }
-    
-    #worksec{
-        height: 610px;
-        font-weight: bold;
-    }
+#landmsg h1{
+    font-size: 64px;
+    font-weight: normal;
+}
 
-    #workimg{
-        height: 400px;
-        background-color: grey;
-    }
-
-    #worktext{
-        width: 95%;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin: auto; 
-        font-size: 17px;
-    }
-
-    #more{
-        text-align: center;
-        margin-top: 30px;
-        margin-bottom: 130px;
-    }
-
-    #more a{
-        font-size: 24px;
-        text-decoration: none;
-        color: white;
-        font-weight: bold;
-    }
-
-    #about{
-        text-align: center;
-        margin-bottom: 296px;
-    }
-
-    #about p{
-        text-align: justify;
-        width: 90%;
-        margin: auto;
-        font-size: 24px;
-    }
-
-    #about h1{
-        font-style: italic;
-        font-weight: normal;
-        font-size: 40px;
-    }
-
-    footer{
-        width: 360px;
-        margin: auto;
-        text-align: center;
-    }
-
-    #email{
-        margin-bottom: 40px;
-    }
-    #email h1{
-        font-size: 20px;
-        font-style: normal;
-        margin-bottom: 0;
-    }
-
-    #email p{
-        margin-top: 0;
-        text-decoration: underline;
-    }
-
-    #copywrite{
-        margin-top: 40px;
-        opacity: 15%;
-        margin-bottom: 10px;
-    }
-
-    .socials{
-        display: flex;
-        justify-content: space-between;
-        margin: auto;
-        height: 35px;
-        width: 145px;
-    }
-
-    .socials svg{
-        height: 35px;
-        width: 35px;
-    }
-
-    .socials div{
-        transition: opacity .25s ease-in-out;
-        opacity: 70%;
-        display: flex;
-        justify-content: space-between;
-        width: auto;
-    }
-
-    .socials div:hover{
-        transition: opacity .25s ease-in-out;
-        opacity: 100%;
-    }
+#landmsg p{
+    font-size: 24px;
 
 }
 
-@media only screen and (max-width: 1366px){
-    header{
-        display: flex;
-        justify-content: space-between;
-        vertical-align: middle;
-        width: 1186px;
-        margin: auto;
-        margin-top: 30px;
-    }
-
-    header div{
-        width: 33.3%;
-    }
-    
-    #socials{
-        display: flex;
-        justify-content: space-between;
-        margin: auto;
-        margin-left: 0;
-        height: 35px;
-        width: 190px;
-    }
-
-    #socials svg{
-        height: 40px;
-        width: 40px;
-    }
-
-    #socials div{
-        transition: opacity .25s ease-in-out;
-        opacity: 70%;
-        display: flex;
-        justify-content: space-between;
-        width: auto;
-    }
-
-    #socials div:hover{
-        transition: opacity .25s ease-in-out;
-        opacity: 100%;
-    }
-
-    #contact{
-        margin-right: 0;
-        text-align: right;
-    }
-
-    #contact a{
-        font-size: 24px;
-        transition: opacity .25s ease-in-out;
-        opacity: 70%;   
-    }
-
-    #contact a:hover{
-        transition: opacity .25s ease-in-out;
-        opacity: 100%;
-    }
-
-    #logo h1{
-        font-size: 36px;
-        font-weight: normal;
-        text-align: center;
-        margin: auto;
-    }
-
-    #landmsg{
-        width: 454px;
-        margin: auto;
-        text-align: center;
-        margin-top: 342px;
-        margin-bottom: 340px;
-    }
-
-    #landmsg h1{
-        font-size: 64px;
-        font-weight: normal;
-    }
-
-    #landmsg p{
-        font-size: 24px;
-
-    }
-    
-    #worksec{
-        height: 610px;
-        font-weight: bold;
-    }
-
-    #workimg{
-        height: 400px;
-        background-color: grey;
-    }
-
-    #worktext{
-        width: 95%;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin: auto; 
-        font-size: 17px;
-    }
-
-    #more{
-        text-align: center;
-        margin-top: 30px;
-        margin-bottom: 130px;
-    }
-
-    #more a{
-        font-size: 24px;
-        text-decoration: none;
-        color: white;
-        font-weight: bold;
-    }
-
-    #about{
-        text-align: center;
-        margin-bottom: 296px;
-    }
-
-    #about p{
-        text-align: justify;
-        width: 90%;
-        margin: auto;
-        font-size: 24px;
-    }
-
-    #about h1{
-        font-style: italic;
-        font-weight: normal;
-        font-size: 40px;
-    }
-
-    footer{
-        width: 360px;
-        margin: auto;
-        text-align: center;
-    }
-
-    #email{
-        margin-bottom: 40px;
-    }
-    #email h1{
-        font-size: 20px;
-        font-style: normal;
-        margin-bottom: 0;
-    }
-
-    #email p{
-        margin-top: 0;
-        text-decoration: underline;
-    }
-
-    #copywrite{
-        margin-top: 40px;
-        opacity: 15%;
-        margin-bottom: 10px;
-    }
-
-    .socials{
-        display: flex;
-        justify-content: space-between;
-        margin: auto;
-        height: 35px;
-        width: 145px;
-    }
-
-    .socials svg{
-        height: 35px;
-        width: 35px;
-    }
-
-    .socials div{
-        transition: opacity .25s ease-in-out;
-        opacity: 70%;
-        display: flex;
-        justify-content: space-between;
-        width: auto;
-    }
-
-    .socials div:hover{
-        transition: opacity .25s ease-in-out;
-        opacity: 100%;
-    }
-
+#landmsg svg {
+    width: 65px;
+    height: auto;
 }
+
+#worksec{
+    height: 610px;
+    font-weight: bold;
+}
+
+#workimg{
+    height: 400px;
+    background-color: grey;
+}
+
+#worktext{
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto; 
+    font-size: 17px;
+}
+
+#more{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 130px;
+}
+
+#more a{
+    font-size: 24px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+#about{
+    text-align: center;
+    margin-bottom: 296px;
+}
+
+#about p{
+    text-align: justify;
+    width: 90%;
+    margin: auto;
+    font-size: 24px;
+}
+
+#about h1{
+    font-style: italic;
+    font-weight: normal;
+    font-size: 40px;
+}
+
+footer{
+    width: 360px;
+    margin: auto;
+    text-align: center;
+}
+
+#email{
+    margin-bottom: 40px;
+}
+#email h1{
+    font-size: 20px;
+    font-style: normal;
+    margin-bottom: 0;
+}
+
+#email p{
+    margin-top: 0;
+    text-decoration: underline;
+}
+
+#copywrite{
+    margin-top: 40px;
+    opacity: 15%;
+    margin-bottom: 10px;
+}
+
+.socials{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    height: 35px;
+    width: 145px;
+}
+
+.socials svg{
+    height: 35px;
+    width: 35px;
+}
+
+.socials div{
+    transition: opacity .25s ease-in-out;
+    opacity: 70%;
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+}
+
+.socials div:hover{
+    transition: opacity .25s ease-in-out;
+    opacity: 100%;
+}
+
