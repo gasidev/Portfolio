@@ -27,9 +27,7 @@ header{
     display: flex;
     justify-content: space-between;
     vertical-align: middle;
-    margin-top: 30px;
-    margin-left: 2.5%;
-    margin-right: 2.5%;
+    margin: 30px 2.5% 0 2.5%;
 }
 
 header div{
@@ -44,7 +42,7 @@ header div{
 }
 
 #socials svg{
-    width: 30px;
+    width: 3.2vh;
     height: auto;
 }
 
@@ -65,7 +63,7 @@ header div{
     margin: auto;
     margin-right: 0;
     text-align: right;
-    flex: 0.95  
+    flex: 0.95;  
 }
 
 #contact a{
@@ -80,7 +78,7 @@ header div{
 }
 
 #logo h1{
-    font-size: 1.75rem;
+    font-size: 3vh;
     font-weight: normal;
     text-align: center;
     margin: auto;
